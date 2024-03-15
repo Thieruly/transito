@@ -1,0 +1,62 @@
+
+
+nav {
+    background-color: #cc3434;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+footer { 
+    position: relative!important;
+    bottom: 50px!important;
+    background-color: #cc3434;
+    height: 60px;
+    width: 100%;
+}
+
+div {
+    min-height: 580px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+img {
+    max-height: 700px;
+    max-width: 100%;
+}
+p{
+    color: #ffffff;
+    align-items: center;
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+
+}
+#imageContainer {
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#statusImage {
+    margin-top: 1px; 
+}
+
+#statusText {
+    color: black;
+    font-size: 18px;
+}
+@media screen and (max-width: 800px){
+    body{
+        background-image: url(../img/casa.png);
+        background-size: auto;
+        align-items: center;
+    }
+}
+    
